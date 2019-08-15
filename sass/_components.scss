@@ -1,3 +1,18 @@
 .logo {
-    height: 3.25rem;
+    height: 3rem;
+}
+
+.search {
+    &_input {
+
+    }
+
+    &_button {
+        
+    }
+
+    &_icon {
+        height: 10px;
+        width: 2rem;
+    }
 }

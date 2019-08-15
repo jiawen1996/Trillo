@@ -60,7 +60,8 @@ body {
 .header {
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2); }
+  border-bottom: var(--color-grey-light-2);
+  display: flex; }
 
 .content {
   display: flex; }
@@ -74,4 +75,8 @@ body {
   flex: 1; }
 
 .logo {
-  height: 3.25rem; }
+  height: 3rem; }
+
+.search_icon {
+  height: 10px;
+  width: 2rem; }
