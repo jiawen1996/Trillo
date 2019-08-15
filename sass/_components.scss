@@ -30,6 +30,11 @@
             outline: none; //bold blue border around
             width: 100%;
         }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: var(--color-grey-light-4);
+        }
         
         &:active {
             transform: translateY(2px)
