@@ -1,10 +1,16 @@
+/////////////////////
+//LOGO
 .logo {
     height: 3.25rem;
 }
 
-.search {
-    &_input {
 
+///////////////////
+//SEARCH-BOX
+.search {
+    background-color: orange;
+    &_input {
+        border-radius: 50px;
     }
 
     &_button {
@@ -15,4 +21,30 @@
         height: 2rem;
         width: 2rem;
     }
+}
+
+.user-nav {
+    background-color: yellow;
+    &_icon-box {
+
+    }
+
+    &_icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    &__notification {
+        
+    }
+
+    &_user-photo {
+        height: 3.75rem;
+        border-radius: 50%;
+    }
+
+    &_user-name {
+        
+    }
+
 }
