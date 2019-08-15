@@ -77,12 +77,19 @@ body {
   flex: 1; }
 
 .logo {
+  margin-left: 3rem;
   height: 3.25rem; }
 
 .search {
-  background-color: orange; }
+  background-color: orange;
+  flex: 0 0 40%; }
   .search_input {
-    border-radius: 50px; }
+    font-family: inherit;
+    font-size: inherit;
+    background-color: var(--color-grey-light-2);
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 100px; }
   .search_icon {
     height: 2rem;
     width: 2rem; }
