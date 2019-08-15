@@ -90,6 +90,10 @@ body {
     border: none;
     padding: .7rem 2rem;
     border-radius: 100px; }
+    .search_input:focus {
+      outline: none;
+      width: 100%;
+      background-color: var(--color-grey-light-3); }
   .search_icon {
     height: 2rem;
     width: 2rem; }
