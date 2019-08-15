@@ -9,8 +9,11 @@
 ///////////////////
 //SEARCH-BOX
 .search {
-    background-color: orange;
     flex: 0 0 40%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
     &_input {
         font-family: inherit;
@@ -26,7 +29,10 @@
         &:focus {
             outline: none; //bold blue border around
             width: 100%;
-            background-color: var(--color-grey-light-3);
+        }
+        
+        &:active {
+            transform: translateY(2px)
         }
     }
 
@@ -35,13 +41,17 @@
         background-color: var(--color-grey-light-2);
         &:focus {
             outline: none; //bold blue border around
-            background-color: var(--color-grey-light-3);
         }
+    }
+
+    &_button:focus + &_input:focus {
+        background-color: var(--color-grey-light-3);
     }
 
     &_icon {
         height: 2rem;
         width: 2rem;
+        fill: var(--color-grey-dark-3)
     }
 }
 
