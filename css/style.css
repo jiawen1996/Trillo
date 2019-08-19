@@ -129,9 +129,25 @@ body {
     align-items: center; }
   .user-nav > *:hover {
     background-color: var(--color-grey-light-2); }
+  .user-nav_icon-box {
+    position: relative; }
   .user-nav_icon {
     height: 2.25rem;
-    width: 2.25rem; }
+    width: 2.25rem;
+    fill: var(--color-grey-dark-2); }
+  .user-nav_notification {
+    font-size: .8rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 100px;
+    background-color: var(--color-primary);
+    color: white;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
   .user-nav_user-photo {
     height: 3.75rem;
     border-radius: 50%; }

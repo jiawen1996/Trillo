@@ -79,16 +79,28 @@
 
     background-color: yellow;
     &_icon-box {
-
+        position: relative;
     }
 
     &_icon {
         height: 2.25rem;
         width: 2.25rem;
+        fill: var(--color-grey-dark-2);
     }
 
-    &__notification {
-        
+    &_notification {
+        font-size: .8rem;
+        height: 1.75rem;
+        width: 1.75rem;
+        border-radius: 100px;
+        background-color: var(--color-primary);
+        color: white;
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-content: center
     }
 
     &_user-photo {
