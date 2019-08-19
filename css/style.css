@@ -117,7 +117,18 @@ body {
     fill: var(--color-grey-dark-3); }
 
 .user-nav {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
   background-color: yellow; }
+  .user-nav > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  .user-nav > *:hover {
+    background-color: var(--color-grey-light-2); }
   .user-nav_icon {
     height: 2.25rem;
     width: 2.25rem; }

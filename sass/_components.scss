@@ -61,6 +61,22 @@
 }
 
 .user-nav {
+    display: flex;
+    align-self: stretch;//将item的大小拉伸至整个容器
+    align-items: center;
+
+    & > * {
+        padding: 0 2rem;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    & > *:hover {
+        background-color: var(--color-grey-light-2)
+    }
+
     background-color: yellow;
     &_icon-box {
 
