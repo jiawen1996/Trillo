@@ -67,14 +67,14 @@ body {
   align-items: center; }
 
 .content {
-  display: flex; }
+  display: flex;
+  height: 100vh; }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; }
 
 .hotel-view {
-  background-color: orangered;
   flex: 1; }
 
 .logo {
@@ -151,3 +151,12 @@ body {
     height: 3.75rem;
     border-radius: 50%;
     margin-right: 1rem; }
+
+.sidebar {
+  height: 100%; }
+
+.gallery {
+  display: flex; }
+  .gallery_photo {
+    display: block;
+    width: 100%; }
