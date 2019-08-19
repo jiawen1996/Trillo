@@ -1,7 +1,7 @@
 /////////////////////
 //LOGO
 .logo {
-    margin-left: 3rem;
+    margin-left: 2rem;
     height: 3.25rem;
 }
 
@@ -77,7 +77,6 @@
         background-color: var(--color-grey-light-2)
     }
 
-    background-color: yellow;
     &_icon-box {
         position: relative;
     }
@@ -106,6 +105,7 @@
     &_user-photo {
         height: 3.75rem;
         border-radius: 50%;
+        margin-right: 1rem;
     }
 
     &_user-name {
