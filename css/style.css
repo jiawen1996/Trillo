@@ -61,7 +61,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -164,8 +164,7 @@ body {
 .overview {
   display: flex; }
   .overview_stars {
-    margin-right: auto;
-    background-color: orangered; }
+    margin-right: auto; }
   .overview_star, .overview_location-icon {
     fill: var(--color-primary);
     width: 1.75rem;
