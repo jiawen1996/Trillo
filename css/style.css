@@ -164,8 +164,8 @@ body {
 .overview {
   display: flex; }
   .overview_stars {
-    flex: 1;
-    background-color: yellowgreen; }
+    margin-right: auto;
+    background-color: orangered; }
   .overview_star, .overview_location-icon {
     fill: var(--color-primary);
     width: 1.75rem;
