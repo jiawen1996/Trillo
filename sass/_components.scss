@@ -110,14 +110,47 @@
 
 }
 
+/////////////////
+//SIDEBAR
 .sidebar {
     height: 100%;
 }
 
+/////////////////
+//GALLERY
 .gallery {
     display: flex;
     &_photo {
         display: block;
         width: 100%;
+    }
+}
+
+/////////////////
+//OVERVIEW
+.overview {
+    display: flex;
+
+    &_heading {
+
+    }
+    &_stars {
+        flex: 1;
+        background-color: yellowgreen;
+    }
+
+    &_star,
+    &_location-icon {
+        fill: var(--color-primary);
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+
+    &_location {
+        
+    }
+
+    &_rating {
+        
     }
 }

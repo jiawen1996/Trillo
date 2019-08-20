@@ -160,3 +160,13 @@ body {
   .gallery_photo {
     display: block;
     width: 100%; }
+
+.overview {
+  display: flex; }
+  .overview_stars {
+    flex: 1;
+    background-color: yellowgreen; }
+  .overview_star, .overview_location-icon {
+    fill: var(--color-primary);
+    width: 1.75rem;
+    height: 1.75rem; }
