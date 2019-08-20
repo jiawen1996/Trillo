@@ -275,7 +275,10 @@ body {
 .recommend {
   font-size: 1.3rem;
   color: var(--color-grey-dark-3);
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .recommend_count {
+    margin-right: auto; }
   .recommend_photo {
     box-sizing: content-box;
     height: 4rem;

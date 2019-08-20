@@ -267,9 +267,10 @@
     font-size: 1.3rem;
     color: var(--color-grey-dark-3);
     display: flex;
+    align-items: center;
 
     &_count {
-
+        margin-right: auto;
     }
 
     &_friends {
