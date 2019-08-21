@@ -291,10 +291,12 @@ body {
 .review {
   background-color: white;
   box-shadow: var(--shadow-light);
-  padding: 3rem;
-  margin-bottom: 3.5rem; }
+  padding: 3.5rem;
+  margin-bottom: 3.5rem;
+  position: relative; }
   .review_text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    z-index: 10; }
   .review_user {
     display: flex;
     align-items: center; }
@@ -320,3 +322,12 @@ body {
     font-size: 2.25rem;
     font-weight: 300;
     color: var(--color-primary); }
+  .review::before {
+    content: "\201C";
+    position: absolute;
+    top: -.75rem;
+    left: -1rem;
+    line-height: 1;
+    color: var(--color-grey-light-2);
+    font-size: 17rem;
+    font-family: sans-serif; }
