@@ -33,11 +33,13 @@
     background-color: #fff;
 }
 
+//parent of description and user-reviews
 .detail {
     font-size: 1.4rem;
     display: flex;
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
 }
 
 .description {
@@ -49,6 +51,5 @@
 }
 
 .user-reviews {
-    background-color: greenyellow;
     flex: 1;
 }
