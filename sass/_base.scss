@@ -36,6 +36,8 @@ Grey dark 3: #999
 }
 
 $bp-largest: 75rem;   //1200px  largest breakpoint
+$bp-large: 68.74rem;   //1100px
+$bp-medium: 56.25rem;   //900px
 
 
 * {
@@ -52,6 +54,10 @@ $bp-largest: 75rem;   //1200px  largest breakpoint
 html {
     box-sizing: border-box;
     font-size: 62.6%; // 1rem = 10px, 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
 }
 
 body {
