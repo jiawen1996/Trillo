@@ -96,7 +96,10 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   margin-left: 2rem;
@@ -231,8 +234,13 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all .2s; }
+  .btn-inline span {
+    margin-left: 3px;
+    transition: all .2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-3); }
+    .btn-inline:hover span {
+      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulsate 1s infinite; }
@@ -293,10 +301,12 @@ body {
   box-shadow: var(--shadow-light);
   padding: 3.5rem;
   margin-bottom: 3.5rem;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .review_text {
     margin-bottom: 2rem;
-    z-index: 10; }
+    z-index: 10;
+    position: relative; }
   .review_user {
     display: flex;
     align-items: center; }
@@ -325,9 +335,10 @@ body {
   .review::before {
     content: "\201C";
     position: absolute;
-    top: -.75rem;
-    left: -1rem;
+    top: -1.25rem;
+    left: -1.75rem;
     line-height: 1;
+    z-index: 1;
     color: var(--color-grey-light-2);
-    font-size: 17rem;
+    font-size: 22rem;
     font-family: sans-serif; }
