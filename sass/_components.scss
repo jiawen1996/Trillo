@@ -110,11 +110,6 @@
 
 }
 
-/////////////////
-//SIDEBAR
-.sidebar {
-    height: 100%;
-}
 
 /////////////////
 //GALLERY
@@ -362,4 +357,18 @@
         font-family: sans-serif;
     }
 
+}
+
+/////////////////////
+//CALL TO ACTION
+.cta {
+    padding: 3.5rem 0;
+    text-align: center;
+
+    &_book-now {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
 }

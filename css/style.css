@@ -70,7 +70,6 @@ body {
 
 .content {
   display: flex;
-  height: 100vh;
   background-color: var(--color-grey-light-1); }
 
 .sidebar {
@@ -175,9 +174,6 @@ body {
     height: 3.75rem;
     border-radius: 50%;
     margin-right: 1rem; }
-
-.sidebar {
-  height: 100%; }
 
 .gallery {
   display: flex; }
@@ -342,3 +338,12 @@ body {
     color: var(--color-grey-light-2);
     font-size: 22rem;
     font-family: sans-serif; }
+
+.cta {
+  padding: 3.5rem 0;
+  text-align: center; }
+  .cta_book-now {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem; }
