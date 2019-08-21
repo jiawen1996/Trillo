@@ -100,6 +100,9 @@ body {
   @media only screen and (max-width: 56.25rem) {
     .detail {
       padding: 3rem; } }
+  @media only screen and (max-width: 37.5rem) {
+    .detail {
+      flex-direction: column; } }
 
 .description {
   background-color: white;
@@ -111,6 +114,11 @@ body {
     .description {
       padding: 2rem;
       margin-right: 3rem; } }
+  @media only screen and (max-width: 37.5rem) {
+    .description {
+      padding: 2rem;
+      margin-right: 0rem;
+      margin-bottom: 3rem; } }
 
 .user-reviews {
   flex: 1;

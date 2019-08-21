@@ -29,6 +29,8 @@
     @media only screen and (max-width: $bp-medium) {
         flex-direction: column;
     }
+
+
 }
 
 .sidebar {
@@ -52,6 +54,10 @@
     @media only screen and (max-width: $bp-medium) {
         padding: 3rem;
     }
+
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+    }
 }
 
 .description {
@@ -64,6 +70,12 @@
     @media only screen and (max-width: $bp-medium) {
         padding: 2rem;
         margin-right: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 2rem;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
     }
 }
 
