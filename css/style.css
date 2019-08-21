@@ -358,15 +358,19 @@ body {
   color: white;
   position: relative;
   overflow: hidden; }
-  .btn_visible {
+  .btn > * {
     display: inline-block;
+    height: 100%;
+    width: 100%; }
+  .btn_visible {
     padding: 2rem 7.5rem; }
   .btn_invisible {
-    color: yellowgreen;
-    display: inline-block;
     padding: 2rem 0rem;
     position: absolute;
-    height: 100%;
-    width: 100%;
     left: 0;
-    top: -100%; }
+    top: -100%;
+    transition: all .2s; }
+  .btn:hover .btn_invisible {
+    top: 0; }
+  .btn:hover .btn_visible {
+    transform: translateY(100%); }

@@ -383,20 +383,31 @@
     color: white;
     position: relative;
     overflow: hidden;
+    
+    & > * {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
 
     &_visible {
-        display: inline-block;
         padding: 2rem 7.5rem;
     }
 
     &_invisible {
-        color: yellowgreen;
-        display: inline-block;
         padding: 2rem 0rem;
         position: absolute;
-        height: 100%;
-        width: 100%;
         left: 0;
         top: -100%;
+        transition: all .2s
     }
+
+    &:hover &_invisible{
+            top: 0;
+    }
+
+    &:hover &_visible{
+        transform: translateY(100%);
+    }
+
 }
