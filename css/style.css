@@ -345,5 +345,26 @@ body {
   .cta_book-now {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 2.5rem; }
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  color: white;
+  position: relative; }
+  .btn_visible {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
+  .btn_invisible {
+    display: inline-block;
+    padding: 2rem 0rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: -100%; }
