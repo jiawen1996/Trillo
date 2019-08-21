@@ -382,6 +382,7 @@
     background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
     color: white;
     position: relative;
+    overflow: hidden;
 
     &_visible {
         display: inline-block;
@@ -389,6 +390,7 @@
     }
 
     &_invisible {
+        color: yellowgreen;
         display: inline-block;
         padding: 2rem 0rem;
         position: absolute;
